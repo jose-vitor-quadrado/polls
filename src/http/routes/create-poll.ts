@@ -21,7 +21,7 @@ export async function createPoll(app: FastifyInstance) {
 						})
 					}
 				}
-			} as any
+			}
 		});
 	
 		return reply.status(201).send({ pollId: poll.id });

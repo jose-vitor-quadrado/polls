@@ -21,7 +21,7 @@ export async function getPoll(app: FastifyInstance) {
             title: true
           }
         }
-      } as never
+      }
 		});
 	
 		return reply.send({ poll });
